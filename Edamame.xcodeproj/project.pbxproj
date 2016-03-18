@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36177C081C9BAF5C00F25872 /* frequency_sweep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 36177C071C9BAF5C00F25872 /* frequency_sweep.wav */; };
+		3620383E1C9B9C7A0037DEFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3620383D1C9B9C7A0037DEFB /* AppDelegate.swift */; };
+		362038401C9B9C7A0037DEFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3620383F1C9B9C7A0037DEFB /* ViewController.swift */; };
+		362038431C9B9C7A0037DEFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362038411C9B9C7A0037DEFB /* Main.storyboard */; };
+		362038461C9B9C7A0037DEFB /* Edamame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 362038441C9B9C7A0037DEFB /* Edamame.xcdatamodeld */; };
+		362038481C9B9C7A0037DEFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362038471C9B9C7A0037DEFB /* Assets.xcassets */; };
+		3620384B1C9B9C7A0037DEFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 362038491C9B9C7A0037DEFB /* LaunchScreen.storyboard */; };
+		362038561C9B9C7A0037DEFB /* EdamameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 362038551C9B9C7A0037DEFB /* EdamameTests.swift */; };
+		BDD426D16946524893258C38 /* Pods_EdamameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02C48D04C7DC0AD590AFA4AC /* Pods_EdamameTests.framework */; };
+		DD70FA36ABC950DACDB3DEB3 /* Pods_Edamame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48F0BEC0C27D80CE01A366FE /* Pods_Edamame.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		362038521C9B9C7A0037DEFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 362038321C9B9C7A0037DEFB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 362038391C9B9C7A0037DEFB;
+			remoteInfo = Edamame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C48D04C7DC0AD590AFA4AC /* Pods_EdamameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EdamameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4EE98653F244F3354CFA05 /* Pods-EdamameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdamameTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EdamameTests/Pods-EdamameTests.debug.xcconfig"; sourceTree = "<group>"; };
+		36177C041C9B9E3C00F25872 /* Edamame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Edamame-Bridging-Header.h"; sourceTree = "<group>"; };
+		36177C071C9BAF5C00F25872 /* frequency_sweep.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = frequency_sweep.wav; sourceTree = "<group>"; };
+		3620383A1C9B9C7A0037DEFB /* Edamame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edamame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3620383D1C9B9C7A0037DEFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3620383F1C9B9C7A0037DEFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		362038421C9B9C7A0037DEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		362038451C9B9C7A0037DEFB /* Edamame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Edamame.xcdatamodel; sourceTree = "<group>"; };
+		362038471C9B9C7A0037DEFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3620384A1C9B9C7A0037DEFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3620384C1C9B9C7A0037DEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362038511C9B9C7A0037DEFB /* EdamameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EdamameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		362038551C9B9C7A0037DEFB /* EdamameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdamameTests.swift; sourceTree = "<group>"; };
+		362038571C9B9C7A0037DEFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48F0BEC0C27D80CE01A366FE /* Pods_Edamame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Edamame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58E23B381809B7B38EDEE332 /* Pods-Edamame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edamame.release.xcconfig"; path = "Pods/Target Support Files/Pods-Edamame/Pods-Edamame.release.xcconfig"; sourceTree = "<group>"; };
+		6EBA09414547453F09E1F60F /* Pods-EdamameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EdamameTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EdamameTests/Pods-EdamameTests.release.xcconfig"; sourceTree = "<group>"; };
+		E91518EDDBB015D8687A86DF /* Pods-Edamame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Edamame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Edamame/Pods-Edamame.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		362038371C9B9C7A0037DEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD70FA36ABC950DACDB3DEB3 /* Pods_Edamame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3620384E1C9B9C7A0037DEFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD426D16946524893258C38 /* Pods_EdamameTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		362038311C9B9C7A0037DEFB = {
+			isa = PBXGroup;
+			children = (
+				3620383C1C9B9C7A0037DEFB /* Edamame */,
+				362038541C9B9C7A0037DEFB /* EdamameTests */,
+				3620383B1C9B9C7A0037DEFB /* Products */,
+				FD1664A336F784FBFEF45264 /* Pods */,
+				9D54B061274B4F144DB58AFD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3620383B1C9B9C7A0037DEFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3620383A1C9B9C7A0037DEFB /* Edamame.app */,
+				362038511C9B9C7A0037DEFB /* EdamameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3620383C1C9B9C7A0037DEFB /* Edamame */ = {
+			isa = PBXGroup;
+			children = (
+				3620383D1C9B9C7A0037DEFB /* AppDelegate.swift */,
+				3620383F1C9B9C7A0037DEFB /* ViewController.swift */,
+				362038411C9B9C7A0037DEFB /* Main.storyboard */,
+				362038471C9B9C7A0037DEFB /* Assets.xcassets */,
+				362038491C9B9C7A0037DEFB /* LaunchScreen.storyboard */,
+				3620384C1C9B9C7A0037DEFB /* Info.plist */,
+				362038441C9B9C7A0037DEFB /* Edamame.xcdatamodeld */,
+				36177C041C9B9E3C00F25872 /* Edamame-Bridging-Header.h */,
+				36177C071C9BAF5C00F25872 /* frequency_sweep.wav */,
+			);
+			path = Edamame;
+			sourceTree = "<group>";
+		};
+		362038541C9B9C7A0037DEFB /* EdamameTests */ = {
+			isa = PBXGroup;
+			children = (
+				362038551C9B9C7A0037DEFB /* EdamameTests.swift */,
+				362038571C9B9C7A0037DEFB /* Info.plist */,
+			);
+			path = EdamameTests;
+			sourceTree = "<group>";
+		};
+		9D54B061274B4F144DB58AFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48F0BEC0C27D80CE01A366FE /* Pods_Edamame.framework */,
+				02C48D04C7DC0AD590AFA4AC /* Pods_EdamameTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD1664A336F784FBFEF45264 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E91518EDDBB015D8687A86DF /* Pods-Edamame.debug.xcconfig */,
+				58E23B381809B7B38EDEE332 /* Pods-Edamame.release.xcconfig */,
+				1F4EE98653F244F3354CFA05 /* Pods-EdamameTests.debug.xcconfig */,
+				6EBA09414547453F09E1F60F /* Pods-EdamameTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		362038391C9B9C7A0037DEFB /* Edamame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3620385A1C9B9C7A0037DEFB /* Build configuration list for PBXNativeTarget "Edamame" */;
+			buildPhases = (
+				6BC0FA1D38C417370E68C005 /* Check Pods Manifest.lock */,
+				362038361C9B9C7A0037DEFB /* Sources */,
+				362038371C9B9C7A0037DEFB /* Frameworks */,
+				362038381C9B9C7A0037DEFB /* Resources */,
+				46C7C2C3BF69157CCDF7E151 /* Embed Pods Frameworks */,
+				49C2630F26BC6D745587C0FD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Edamame;
+			productName = Edamame;
+			productReference = 3620383A1C9B9C7A0037DEFB /* Edamame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		362038501C9B9C7A0037DEFB /* EdamameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3620385D1C9B9C7A0037DEFB /* Build configuration list for PBXNativeTarget "EdamameTests" */;
+			buildPhases = (
+				B92868E09E72EB948D17585A /* Check Pods Manifest.lock */,
+				3620384D1C9B9C7A0037DEFB /* Sources */,
+				3620384E1C9B9C7A0037DEFB /* Frameworks */,
+				3620384F1C9B9C7A0037DEFB /* Resources */,
+				67984708755DD101CB5A4CF4 /* Embed Pods Frameworks */,
+				236AC8E48E3A05330747E376 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				362038531C9B9C7A0037DEFB /* PBXTargetDependency */,
+			);
+			name = EdamameTests;
+			productName = EdamameTests;
+			productReference = 362038511C9B9C7A0037DEFB /* EdamameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		362038321C9B9C7A0037DEFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ben Ha";
+				TargetAttributes = {
+					362038391C9B9C7A0037DEFB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4TEHJ74345;
+					};
+					362038501C9B9C7A0037DEFB = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 4TEHJ74345;
+						TestTargetID = 362038391C9B9C7A0037DEFB;
+					};
+				};
+			};
+			buildConfigurationList = 362038351C9B9C7A0037DEFB /* Build configuration list for PBXProject "Edamame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 362038311C9B9C7A0037DEFB;
+			productRefGroup = 3620383B1C9B9C7A0037DEFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				362038391C9B9C7A0037DEFB /* Edamame */,
+				362038501C9B9C7A0037DEFB /* EdamameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		362038381C9B9C7A0037DEFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36177C081C9BAF5C00F25872 /* frequency_sweep.wav in Resources */,
+				3620384B1C9B9C7A0037DEFB /* LaunchScreen.storyboard in Resources */,
+				362038481C9B9C7A0037DEFB /* Assets.xcassets in Resources */,
+				362038431C9B9C7A0037DEFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3620384F1C9B9C7A0037DEFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		236AC8E48E3A05330747E376 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdamameTests/Pods-EdamameTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		46C7C2C3BF69157CCDF7E151 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Edamame/Pods-Edamame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49C2630F26BC6D745587C0FD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Edamame/Pods-Edamame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67984708755DD101CB5A4CF4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EdamameTests/Pods-EdamameTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6BC0FA1D38C417370E68C005 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B92868E09E72EB948D17585A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		362038361C9B9C7A0037DEFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362038461C9B9C7A0037DEFB /* Edamame.xcdatamodeld in Sources */,
+				362038401C9B9C7A0037DEFB /* ViewController.swift in Sources */,
+				3620383E1C9B9C7A0037DEFB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3620384D1C9B9C7A0037DEFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362038561C9B9C7A0037DEFB /* EdamameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		362038531C9B9C7A0037DEFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 362038391C9B9C7A0037DEFB /* Edamame */;
+			targetProxy = 362038521C9B9C7A0037DEFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		362038411C9B9C7A0037DEFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				362038421C9B9C7A0037DEFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		362038491C9B9C7A0037DEFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3620384A1C9B9C7A0037DEFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		362038581C9B9C7A0037DEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		362038591C9B9C7A0037DEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3620385B1C9B9C7A0037DEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E91518EDDBB015D8687A86DF /* Pods-Edamame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Edamame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = benjaminha.Edamame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Edamame/Edamame-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		3620385C1C9B9C7A0037DEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58E23B381809B7B38EDEE332 /* Pods-Edamame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Edamame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = benjaminha.Edamame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Edamame/Edamame-Bridging-Header.h";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3620385E1C9B9C7A0037DEFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F4EE98653F244F3354CFA05 /* Pods-EdamameTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EdamameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = benjaminha.EdamameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edamame.app/Edamame";
+			};
+			name = Debug;
+		};
+		3620385F1C9B9C7A0037DEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EBA09414547453F09E1F60F /* Pods-EdamameTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EdamameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = benjaminha.EdamameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edamame.app/Edamame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		362038351C9B9C7A0037DEFB /* Build configuration list for PBXProject "Edamame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362038581C9B9C7A0037DEFB /* Debug */,
+				362038591C9B9C7A0037DEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3620385A1C9B9C7A0037DEFB /* Build configuration list for PBXNativeTarget "Edamame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3620385B1C9B9C7A0037DEFB /* Debug */,
+				3620385C1C9B9C7A0037DEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3620385D1C9B9C7A0037DEFB /* Build configuration list for PBXNativeTarget "EdamameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3620385E1C9B9C7A0037DEFB /* Debug */,
+				3620385F1C9B9C7A0037DEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		362038441C9B9C7A0037DEFB /* Edamame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				362038451C9B9C7A0037DEFB /* Edamame.xcdatamodel */,
+			);
+			currentVersion = 362038451C9B9C7A0037DEFB /* Edamame.xcdatamodel */;
+			path = Edamame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 362038321C9B9C7A0037DEFB /* Project object */;
+}
